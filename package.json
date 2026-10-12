@@ -1,0 +1,14 @@
+{
+  "name": "next-loadable-404",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3456",
+    "check": "node check.mjs",
+    "repro": "./repro.sh"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.8",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}
